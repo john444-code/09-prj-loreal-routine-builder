@@ -1,5 +1,5 @@
 name = "09-prj-loreal-routine-builder"
-main = "secrets.js"
+main = "script.js"
 compatibility_date = "2026-04-20"
 
 [assets]
