@@ -1,4 +1,1 @@
-echo "_worker.js" > .assetsignore
-git add .assetsignore
-git commit -m "add assetsignore"
-git push
+_worker.js
