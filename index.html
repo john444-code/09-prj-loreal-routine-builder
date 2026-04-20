@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -21,6 +21,7 @@
       <header class="site-header">
         <img src="img/loreal-logo.png" alt="L'Oréal Logo" class="logo" />
         <h1 class="site-title">Smart Routine &amp; Product Advisor</h1>
+        <button id="rtlToggle" class="rtl-toggle">RTL</button>
       </header>
 
       <!-- Category Filter -->
@@ -37,6 +38,11 @@
           <option value="suncare">Suncare</option>
           <option value="fragrance">Fragrance</option>
         </select>
+        <input
+          type="text"
+          id="productSearch"
+          placeholder="Search products by name..."
+        />
       </div>
 
       <!-- Products Grid -->
