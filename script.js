@@ -220,8 +220,8 @@ chatForm.addEventListener("submit", async (e) => {
 /* Function to call OpenAI API via Cloudflare Worker */
 async function callOpenAI(message) {
   // Replace with your Cloudflare Worker URL
-  const workerUrl =
-    "https://09-prj-loreal-routine-builder.john-abdelmalak-office.workers.dev";
+  const workerUrl = "https://09-prj-loreal-routine-builder.john-abdelmalak-office.workers.dev";
+
 
   const response = await fetch(workerUrl, {
     method: "POST",
